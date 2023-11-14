@@ -1,0 +1,6 @@
+package com.oliveiradevsuperior.dslist.repositories;
+
+import com.oliveiradevsuperior.dslist.entities.Game;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GameRepository extends JpaRepository<Game, Long> {}
